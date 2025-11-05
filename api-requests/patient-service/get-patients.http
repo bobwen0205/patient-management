@@ -1,5 +1,5 @@
 ### GET request to example server
-GET http://localhost:4004/api/patients
+GET http://lb-1245f31f.elb.localhost.localstack.cloud:4004/api/patients
 Authorization: Bearer {{token}}
 
 ###
