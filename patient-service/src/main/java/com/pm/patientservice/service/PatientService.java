@@ -43,7 +43,6 @@ public class PatientService {
     )
     public PagedPatientResponseDTO getPatients(
             int page, int size, String sort, String sortField, String searchValue) {
-        log.info("[REDIS]: Cache miss - fetching from DB");
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
