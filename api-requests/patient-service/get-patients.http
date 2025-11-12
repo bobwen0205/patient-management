@@ -1,5 +1,5 @@
 ### GET request to example server
-GET http://localhost:4004/api/patients?sort=asc&size=2&page=1
+GET http://lb-418a1bf3.elb.localhost.localstack.cloud:4004/api/patients?sort=asc&size=2&page=1
 Authorization: Bearer {{token}}
 
 ###

@@ -1125,7 +1125,7 @@
                       "Ref": "PatientManagementVPCPrivateSubnet2Subnet8A2E409C"
                     }
                   ],
-                  "instanceType": "kafka.m5.xlarge",
+                  "instanceType": "kafka.t3.small",
                   "brokerAzDistribution": "DEFAULT"
                 },
                 "clusterName": "kafka-cluster",
